@@ -2,14 +2,14 @@
 
 Hackathon BBVA 2022
 --------------------------------------------------------------------------------------------------
-Team: Falcons Aesthetics 
+Equipo: Falcons Aesthetics 
 
 --------------------------------------------------------------------------------------------------
 Reto: Diversidad e inclusión
 
 
 --------------------------------------------------------------------------------------------------
-Equipo:
+
 
 
 Nombre: Karen Díaz
@@ -72,7 +72,7 @@ email de contacto: caa.ppbt90@gmail.com
 --------------------------------------------------------------------------------------------------
 Descripción del reto:
 
-Nuestras solucion tienen los siguientes elementos:
+Nuestra solución tiene los siguientes elementos:
 
 1) Un video 
 2) Los pasos para instalar la extensión 
