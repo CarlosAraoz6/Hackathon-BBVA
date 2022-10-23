@@ -84,7 +84,7 @@ Nuestra solución tiene los siguientes elementos:
 
 El video contiene una descripción de la problemática que que buscamos resolver y de que manera la abordamos. 
 
-El link del video es:
+El link del video es:https://youtu.be/qx0XTpNBQXs
 
 
 
@@ -105,23 +105,25 @@ Procedimiento para instalar la extensión:
 Hackathon BBVA 1.0
 Reto Diversidad e Inclusión
 
-Paso 1: Descargar el repositorio de Github "tcs_sg".
+Paso 0: Ingresar al Github https://github.com/pgomezm0486/tcs_sg.git
 
-Paso 2: Descomprimir la carpeta "tcs_sg-main".
+Paso 1: Descargar el repositorio de Github "tcs_sg" 
 
-Paso 3: Ir a las extensiones de google chrome de su ordenador.
 
-Paso 4: Ir a gestionar extensiones.
+Paso 2: Descomprimirlo
 
-Paso 5: Activar el modo desarrollador.
 
-Paso 6: Cargar la carpeta descomprimida "tcs_sg-main".
+Paso 3: Ir a las extensiones de Google Chrome de su ordenador
 
-Paso 7: Fijar la extensión "Hackathon BBVA 1.0".
+Paso 4: Activar el modo desarrollador
 
-Paso 8: Acceder a su cuenta de LinkedIn.
+Paso 5: Cargar la carpeta descomprimida "tcs_sg-main"
 
-Paso 9: Ser parte del proceso de identificación de sesgos de género.
+Paso 6: Fijar la extensión "Hackathon BBVA 1.0"
+
+Paso 7: Acceder a su cuenta de LinkedIn y habilitar la extensión en este sitio.
+
+Paso 8: Ser parte del proceso de identificación de sesgos de género.
 
 
 
