@@ -79,7 +79,16 @@ Nuestra solución tiene los siguientes elementos:
 3) Este repositorio de Github 
 
 
+
+--------------------------------------------------------------------------------------------------
+
 El video contiene una descripción de la problemática que que buscamos resolver y de que manera la abordamos. 
+
+El link del video es:
+
+
+
+--------------------------------------------------------------------------------------------------
 
 
 El diagrama de nuestro proyecto es el siguiente: https://drive.google.com/file/d/1usqS5vX2bNX9Dr-NTk8ytYwcO6-j4HQJ/view?usp=sharing.
