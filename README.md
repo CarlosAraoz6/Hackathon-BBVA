@@ -73,7 +73,7 @@ Descripción del reto:
 Nuestras solucion tienen los siguientes elementos:
 
 1) Un video 
-2) El link a nuestra extensión 
+2) Los pasos para instalar la extensión 
 3) Este repositorio de Github 
 
 
@@ -86,6 +86,29 @@ El diagrama de nuestro proyecto es el siguiente: https://drive.google.com/file/d
 Nuestra solución consta de una arquitectura de microservicios y utilizando el modelo vista controlador. Se utiliza un formulario de registro para crear perfiles de usuario con características que puedan servir al modelo de IA para detectar patrones de sesgos de género. Ya teniendo el perfil de usuario, por medio de una extensión para google chrome se obtiene información de las páginas que visita el usuario usando la técnica de scrapper para que luego la información recolectada sea procesada por un middleware y se almacene en una base de datos. Por otro lado se tiene un servicio corriendo a todo momento para ir analizando la información recolectada a través del modelo de IA generado en TCS AI Studio. Si el modelo encuentra un patrón, el middleware notifica al correo de contacto del dominio del sitio donde ocurrió el sesgo de género para informar al proveedor e inyeca en el navegador del cliente una alerta en el sitio web donde se encontró el sesgo.
 
 Las tecnologías usadas para el desarrollo de este proyecto son: Nodejs, JavaScript, Html, Css, ExpressJs, TCS AI Studio, Heroku, mongodb
+
+
+
+--------------------------------------------------------------------------------------------------
+Procedimiento para instalar la extensión:
+Hackathon BBVA 1.0
+Reto Diversidad e Inclusión
+
+Paso 1: Descargar el repositorio de Github "tcs_sg"
+
+Paso 2: Descomprimirlo
+
+Paso 3: Ir a las extensiones de google chrome de su ordenador
+
+Paso 4: Activar el modo desarrollador
+
+Paso 4: Cargar la carpeta descomprimida "tcs_sg-main"
+
+Paso 4: Fijar la extensión "Hackathon BBVA 1.0"
+
+Paso 4: Acceder a su cuenta de LinkedIn
+
+Paso 4: Ser parte del proceso de identificación de sesgos de género.
 
 
 
