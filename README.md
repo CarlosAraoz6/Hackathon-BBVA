@@ -48,7 +48,7 @@ email de contacto:
 
 
 
-Nombre: 
+Nombre: Pablo Gomez
 
 Discord ID: 
 
