@@ -24,6 +24,7 @@ email de contacto:
 
 
 
+
 Nombre: 
 
 Discord ID: SuperDaniel#3151
@@ -31,6 +32,7 @@ Discord ID: SuperDaniel#3151
 Github ID: 
 
 email de contacto: 
+
 
 
 
@@ -45,6 +47,7 @@ email de contacto:
 
 
 
+
 Nombre: 
 
 Discord ID: 
@@ -52,6 +55,7 @@ Discord ID:
 Github ID: 
 
 email de contacto: 
+
 
 
 
