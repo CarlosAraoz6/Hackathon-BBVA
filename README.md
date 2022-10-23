@@ -84,7 +84,7 @@ Nuestra solución tiene los siguientes elementos:
 
 El video contiene una descripción de la problemática que que buscamos resolver y de que manera la abordamos. 
 
-El link del video es:https://youtu.be/qx0XTpNBQXs
+El link del video es: https://youtu.be/qx0XTpNBQXs
 
 
 
