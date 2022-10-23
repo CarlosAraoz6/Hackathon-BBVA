@@ -72,7 +72,7 @@ Descripción del reto:
 
 Nuestras solucion tienen los siguientes elementos:
 
-1) Una video 
+1) Un video 
 2) El link a nuestra extensión 
 3) Este repositorio de Github 
 
