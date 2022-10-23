@@ -14,19 +14,9 @@ Reto: Diversidad e inclusión
 Equipo:
 
 
-Nombre: 
+Nombre: Karen Díaz
 
-Discord ID: 
-
-Github ID: 
-
-email de contacto: 
-
-
-
-Nombre: 
-
-Discord ID: 
+Discord ID: Krn_DiMar#3272
 
 Github ID: 
 
@@ -36,7 +26,17 @@ email de contacto:
 
 Nombre: 
 
-Discord ID: 
+Discord ID: SuperDaniel#3151
+
+Github ID: 
+
+email de contacto: 
+
+
+
+Nombre: Aarón Israel Torrecilla Jiménez
+
+Discord ID: Aaron Torrecilla#9472
 
 Github ID: 
 
