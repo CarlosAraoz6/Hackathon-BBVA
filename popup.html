@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Hackathon BBVA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Reto Diversidad e Inclusión!</h1>
+
+        <label class="Switch">
+            <input id="enabled" type="checkbox" class="Switch__Input" checked>
+            <span class="Slider"></span>
+        </label>
+    </div>
+
+    <form>
+        <input type="text">
+    </form>
+
+    <script>
+        document.querySelector('#enabled').onchange = function (e) {
+            var check = e.target.checked;
+            var backColor = check ? "black" : "white";
+            var color = check ? "white" : "black";
+            document.querySelector('body').style.background= backColor ;
+            document.querySelector('body').style.color= color ;
+        };
+    </script>
+
+</body>
+</html>
