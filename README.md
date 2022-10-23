@@ -25,7 +25,7 @@ email de contacto:
 
 
 
-Nombre: 
+Nombre: Daniel Montes
 
 Discord ID: SuperDaniel#3151
 
