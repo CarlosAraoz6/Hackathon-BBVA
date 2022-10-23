@@ -6,14 +6,15 @@
     "permissions": [
         "alarms",
         "notifications",
-        "storage"
+        "activeTab",
+        "storage",
+        "scripting"
     ],
     "background": {
         "service_worker": "background.js"
     },
     "action": {
-        "default_title": "Hackathon BBVA",
-        "default_popup": "popup.html"
+        "default_title": "Hackathon BBVA"
     },
     "icons": {
         "16": "rainbow-16.png",
