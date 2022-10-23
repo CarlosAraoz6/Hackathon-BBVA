@@ -80,11 +80,25 @@ Nuestras solucion tienen los siguientes elementos:
 El video contiene una descripción de la problemática que que buscamos resolver y de que manera la abordamos. 
 
 
+El diagrama de nuestro proyecto es el siguiente: https://drive.google.com/file/d/1usqS5vX2bNX9Dr-NTk8ytYwcO6-j4HQJ/view?usp=sharing
 
 
+Nuestra solución consta de una arquitectura de microservicios y utilizando el modelo vista controlador. Se utiliza un formulario de registro para crear perfiles de usuario con características que puedan servir al modelo de IA para detectar patrones de sesgos de género. Ya teniendo el perfil de usuario, por medio de una extensión para google chrome se obtiene información de las páginas que visita el usuario usando la técnica de scrapper para que luego la información recolectada sea procesada por un middleware y se almacene en una base de datos. Por otro lado se tiene un servicio corriendo a todo momento para ir analizando la información recolectada a través del modelo de IA generado en TCS AI Studio. Si el modelo encuentra un patrón, el middleware notifica al correo de contacto del dominio del sitio donde ocurrió el sesgo de género para informar al proveedor e inyeca en el navegador del cliente una alerta en el sitio web donde se encontró el sesgo.
+
+Las tecnologías usadas para el desarrollo de este proyecto son: Nodejs, JavaScript, Html, Css, ExpressJs, TCS AI Studio, Heroku, mongodb
+
+
+
+
+--------------------------------------------------------------------------------------------------
 
 TCS AI Studio:
-Implementamos diferentes modelos en esta plataforma utilizando bases de datos que contuvieran información del tipo de trabajo y el género de la persona como el encontrado en "IBM HR Analytics Employee Attrition & Performance" (https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset), utilizando un aprendizaje supervisado pudimos encontrar algunas relaciones entre los datos, así como su correlación. La manera de presentar los datos en esta sección de la plataforma, facilita el procesamiento de datos. Además, la matriz de correlación despliega de manera visual la correlación entre los datos de nuestra base de datos.  
+
+Implementamos diferentes modelos en esta plataforma utilizando bases de datos que contuvieran información del tipo de trabajo y el género de la persona como el encontrado en "IBM HR Analytics Employee Attrition & Performance" (https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset), utilizando un aprendizaje supervisado pudimos encontrar algunas relaciones entre los datos, así como su correlación. La manera de presentar los datos en esta sección de la plataforma, facilita el procesamiento de datos. Además, la matriz de correlación despliega de manera visual la correlación entre los datos de nuestra base de datos. De aquí podemos notar que para realizar mejores estudios de sesgos de género en plataformas orientadas al uso empresarial, a los negocios y al empleo, como lo es  LinkedIn, se necesitan tener primero mejores bases de datos de libre acceso que contengan parámetros importantes para el modelo que consideramos, como son: género, estudios (nivel y carrera), trabajo (experiencia y tipo de trabajo), edad y ubicación, ya que estos datos nos permitirían entrenar un modelo de manera eficiente. Además de que para AI Studio las bases de datos grandes (del orden de GB) no permiten proceder de manera corrrecta con los modelos.
+
+A la hora de crear un modelo de los recipientes hay varios algoritmos que pueden ser entrenados de manera automática, lo que permite que una persona que no tenga una formación en análisis de datos y ML tenga un fácil acceso a estos recursos, para nuestro modelo con los datos de "IBM HR Analytics Employee Attrition & Performance" obtamos por un CatBoostClassifier y obtuvimos una precisión del 62%, la cuál con una mejor base de datos debe mejorar.
+
+
 
 
 
